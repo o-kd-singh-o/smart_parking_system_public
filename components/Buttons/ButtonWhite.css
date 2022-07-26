@@ -1,0 +1,13 @@
+.ButtonWhite {
+  cursor: pointer;
+  color: black;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background: transparent;
+}
+.ButtonWhite:hover,
+.ButtonWhite:active,
+.ButtonWhite.active {
+  color: #fff;
+  border-color: honeydew;
+}

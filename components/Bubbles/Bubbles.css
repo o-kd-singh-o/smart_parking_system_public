@@ -1,0 +1,75 @@
+.circle {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(#ff105f, #ffad06);
+  animation: fadein 5s;
+  -moz-animation: fadein 5s; /* Firefox */
+  /* -webkit-animation: fadein 2s; Safari and Chrome */
+  -o-animation: fadein 5s; /* Opera */
+}
+.circle-text {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.bubble1 {
+  position: absolute;
+  top: 16.27%;
+  left: 45.63%;
+}
+.bubble2 {
+  position: relative;
+  left: 16.27%;
+  top: 100px;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width: 500px) {
+  .circle {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .circle {
+    display: none;
+  }
+}

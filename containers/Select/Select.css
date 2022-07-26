@@ -1,0 +1,12 @@
+.select {
+  padding: 10px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  outline: none;
+  margin: 10px;
+  background: #ff9415;
+}
+.select:hover {
+  cursor: pointer;
+}

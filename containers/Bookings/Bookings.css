@@ -1,0 +1,75 @@
+.bookings-title {
+  font-size: 128px;
+  /* font-family: "Calligraffitti", cursive; */
+  font-family: "Dancing Script", cursive;
+  background: -webkit-linear-gradient(#ff105f, #ffad06);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.disable {
+  padding: 10px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  outline: none;
+  margin: 10px;
+  background: #ffce94;
+  cursor: not-allowed;
+}
+.date {
+  padding: 10px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  outline: none;
+  background: #ff9415;
+  animation: fadein 2s;
+}
+.start-date {
+  position: absolute;
+  left: 20%;
+  top: 45%;
+}
+.end-date {
+  position: absolute;
+  right: 20%;
+  top: 45%;
+}
+.level-select {
+  position: relative;
+  top: 150px;
+  left: -100px;
+  animation: fadein 2s;
+}
+.table {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  border-collapse: collapse;
+}
+tr {
+  border: 1px solid black;
+}
+td {
+  padding: 3px;
+}
+th {
+  background-color: sandybrown;
+  color: #fff;
+  cursor: default;
+  padding: 5px;
+}
+tr:hover {
+  background-color: rgba(238, 238, 238, 0.849);
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .start-date {
+    top: 50%;
+  }
+  .end-date {
+    top: 50%;
+  }
+}
